@@ -1940,11 +1940,7 @@
                             switch (e.prev = e.next) {
                             case 0:
                                 return e.next = 2,
-                                fetch("https://tsuchifumazu.microcms.io/api/v1/works", {
-                                    headers: {
-                                        "X-MICROCMS-API-KEY": "rmHFovgI5S3cQtvxxqwvI2oPKx6G2ba9YE8F"
-                                    }
-                                });
+                                fetch("works.json");
                             case 2:
                                 return t = e.sent,
                                 e.next = 5,
@@ -3034,11 +3030,7 @@
                             switch (e.prev = e.next) {
                             case 0:
                                 return e.next = 2,
-                                fetch("https://tsuchifumazu.microcms.io/api/v1/works?limit=100", {
-                                    headers: {
-                                        "X-MICROCMS-API-KEY": "rmHFovgI5S3cQtvxxqwvI2oPKx6G2ba9YE8F"
-                                    }
-                                });
+                                fetch("works.json");
                             case 2:
                                 return t = e.sent,
                                 e.next = 5,
